@@ -16,7 +16,11 @@ public class CalculatorTest {
     public void canAdd(){
         assertEquals(125, numbers.addNumbers());
     }
-    
+
+    @Test
+    public void canSubtract(){
+        assertEquals(75, numbers.subtractNumbers());
+    }
 
 
 }
