@@ -22,5 +22,15 @@ public class CalculatorTest {
         assertEquals(75, numbers.subtractNumbers());
     }
 
+    @Test
+    public void canMultiply(){
+        assertEquals(2500, numbers.multiplyNumbers());
+    }
+
+    @Test
+    public void canDivide(){
+        assertEquals(4, numbers.divideNumbers());
+    }
+
 
 }
