@@ -17,4 +17,8 @@ public class Waterbottle {
         return this.volume = 0;
     }
 
+    public int fillBottle(){
+        return this.volume = 100;
+    }
+
 }
